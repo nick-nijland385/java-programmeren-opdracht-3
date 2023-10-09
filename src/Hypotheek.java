@@ -2,10 +2,9 @@ import java.util.Formatter;
 
 abstract class Hypotheek implements Product {
 
-    private int hypotheekSom;
-    private int looptijd;
-
-    private int rente = 4;
+    private final int hypotheekSom;
+    private final int looptijd;
+    private final int rente = 4;
 
     public Hypotheek(int hypotheekSom, int looptijd) {
         this.hypotheekSom = hypotheekSom;
