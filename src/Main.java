@@ -10,6 +10,10 @@ public class Main {
         // Maak een spaar hypotheek
         SpaarHypotheek spaarHypotheek = new SpaarHypotheek(hypotheekSom, looptijd);
         getOverzicht(spaarHypotheek);
+
+        // Maak een spaar hypotheek
+        AnnuiteitenHypotheek annuiteitenHypotheek = new AnnuiteitenHypotheek(hypotheekSom, looptijd);
+        getOverzicht(annuiteitenHypotheek);
     }
 
     static void getOverzicht(Hypotheek hypotheek) throws Exception {
@@ -23,3 +27,8 @@ public class Main {
     }
 
 }
+
+
+//    JPA
+//Hybernate
+//Junit
